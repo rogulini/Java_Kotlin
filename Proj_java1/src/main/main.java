@@ -7,8 +7,12 @@ public class main {
 	private static String inputST() {
 		String InputSomethings = "";
 		Scanner ins = new Scanner(System.in);
-		InputSomethings = ins.nextLine();
-		return InputSomethings;
+		try {
+			InputSomethings = ins.nextLine();
+			return InputSomethings;
+		} finally {
+			ins.close();
+		}
 	}
 	
 	public static void main(String[] args) {
