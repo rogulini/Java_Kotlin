@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class main {
 	
-	
 	private static String inputST() {
 		String InputSomethings = "";
 		Scanner ins = new Scanner(System.in);
@@ -15,7 +14,7 @@ public class main {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		String ReadVar = "";
 		System.out.println("¬веди что-нибудь с клавиатуры...");
 		ReadVar = inputST();
